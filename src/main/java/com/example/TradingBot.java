@@ -1,19 +1,4 @@
 package com.example;
-//public class TradingBot {
-//    private final SpotClient spotClient;
-//    private final TradingStrategy tradingStrategy;
-//
-//    public TradingBot(String apiKey, String secretKey, TradingStrategy tradingStrategy) {
-//        this.spotClient = new SpotClientImpl(apiKey, secretKey);
-//        this.tradingStrategy = tradingStrategy;
-//    }
-//
-//    public void startTrading() {
-//        // Implement your trading logic here
-//        OrderActionType action = tradingStrategy.analyzeMarketData();
-//        System.out.println("Recommended action: " + action);
-//    }
-//}
 
 import com.binance.connector.client.SpotClient;
 import com.binance.connector.client.impl.SpotClientImpl;
